@@ -1,4 +1,4 @@
-# Portfolio de Proyectos de Análisis de Datos
+# Portafolio de Proyectos de Análisis de Datos
 
 Bienvenido a mi repositorio de proyectos en **Power BI** y **SQL Server**, donde aplico técnicas de análisis de datos para extraer información valiosa y generar insights relevantes. 📊📈
 
