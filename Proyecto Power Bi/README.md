@@ -1,53 +1,32 @@
-# 📊 Generación y Análisis de Datos de Ventas en SQL Server
+# 📊 Análisis Demográfico - Dashboard Interactivo
 
-## 📌 Descripción del Proyecto
-Este proyecto consiste en la creación y análisis de un conjunto de datos sintético para un sistema de ventas en SQL Server. La base de datos está compuesta por tablas interconectadas que representan clientes, productos, empleados y ventas, lo que permite realizar consultas detalladas sobre el comportamiento del negocio.
+## 📌 Descripción
+Este dashboard interactivo está basado en datos del **World Bank Group** y muestra tendencias clave en **crecimiento poblacional, fertilidad y urbanización**. A través de filtros dinámicos, permite comparar indicadores por año y país para un análisis demográfico más profundo.
 
-## 🏛 Estructura de la Base de Datos
-Se diseñaron las siguientes tablas:
+## 🔍 Secciones del Dashboard
 
-- **Clientes** 🧑‍💼: ID, Nombre, Edad, Ubicación.
-- **Productos** 📦: ID, Nombre, Categoría, Precio.
-- **Empleados** 👔: ID, Nombre, Cargo.
-- **Ventas** 💳: ID, ClienteID, ProductoID, EmpleadoID, Cantidad, Fecha.
+### 1️⃣ Prevalencia del VIH, Crecimiento Poblacional y Urbano
+**Descripción:** Este análisis examina la **prevalencia del VIH**, el **crecimiento poblacional** y el **crecimiento de la población urbana** a lo largo del tiempo y por países. Con filtros interactivos, se pueden identificar **tendencias y variaciones** en estos indicadores, proporcionando una visión clara sobre su evolución y su impacto en la dinámica demográfica global.
 
-## 🔧 Proceso de Creación de Datos
-Para asegurar una distribución realista, se siguieron estos criterios:
+### 2️⃣ Población Total, Migración Neta y Habitantes Reales
+**Descripción:** Esta sección explora la **evolución de la población total** y la **migración neta** a lo largo del tiempo, así como su impacto en la cantidad de **habitantes reales**. También identifica los países **más poblados** y sus tendencias demográficas, brindando una perspectiva sobre los cambios en la distribución de la población a nivel global.
 
-- **Clientes**: Generados con nombres aleatorios y edades en distintos rangos.
-- **Productos**: Se asignaron categorías y precios variados.
-- **Ventas**: Se generó un historial de compras con fechas aleatorias.
-- **Empleados**: Se asignó un vendedor a cada venta.
+### 3️⃣ Países Más Poblados y Variaciones Anuales
+**Descripción:** Se analiza el **país con mayor población en cada año**, la **cantidad máxima de habitantes registrada**, el **promedio de población anual por país** y la **variación anual de los habitantes reales**. A través de estos indicadores, se exploran tendencias demográficas y cambios en la distribución poblacional a lo largo del tiempo.
 
-## 📊 Análisis y Consultas SQL
-Se realizaron consultas para analizar distintos aspectos del negocio:
+## ⚙️ Tecnologías Utilizadas
+- **Power BI** para la visualización de datos
+- **SQL Server** para el procesamiento de la base de datos
+- **DAX** para cálculos avanzados en Power BI
+- **GitHub** para control de versiones y documentación
 
-### 🟢 Consultas Básicas
-- Listado de clientes ordenados por edad.
-- Productos más baratos y más caros.
-- Número total de clientes y empleados.
-- Categorías de productos y ubicaciones de clientes.
+## 📂 Datos Utilizados
+Los datos provienen de los **Indicadores de Desarrollo Mundial** del **World Bank Group**, proporcionando información confiable y actualizada sobre la dinámica poblacional a nivel global.
 
-### 🟡 Consultas Intermedias
-- Total de ventas por cliente y producto.
-- Clientes con más compras registradas.
-- Cantidad de clientes por grupo de edad.
-- Ventas realizadas en un periodo de tiempo.
+## 📎 Uso del Dashboard
+Para visualizar el dashboard, puedes descargar el archivo `.pbix` y abrirlo con **Power BI Desktop** o acceder a la versión publicada (si está disponible).
 
-### 🔴 Consultas Avanzadas
-- Detección de tendencias en ventas.
-- Identificación de productos más rentables.
-- Análisis de estacionalidad en compras.
-- Uso de `CTE` para determinar ventas mínimas y máximas.
-
-## 🚀 Conclusión
-Este proceso permitió construir un conjunto de datos robusto para análisis en SQL Server. La estructura y relación entre las tablas posibilitan la ejecución de consultas avanzadas para extraer insights valiosos.
-
-## 📌 Próximos Pasos
-- ✅ Refinar la generación de datos con distribuciones más realistas.
-- ✅ Implementar triggers o procedimientos almacenados para simulaciones dinámicas.
-- ✅ Ampliar la base de datos con nuevas tablas como "Métodos de Pago" o "Devoluciones".
-
+📢 **Sugerencias y mejoras son bienvenidas. ¡No dudes en contribuir!** 🚀
 ---
 
 📂 **Repositorio:** Incluye los scripts SQL para la creación de la base de datos, generación de datos y consultas de análisis. 
