@@ -17,6 +17,5 @@ Bienvenido a mi repositorio de proyectos en **Power BI** y **SQL Server**, donde
 ## Tecnologías Utilizadas
 - **SQL Server**: Creación y análisis de bases de datos.  
 - **Power BI**: Visualización y generación de dashboards interactivos.  
-- **Python & Pandas** (en algunos análisis complementarios).  
 
 📂 *Repositorio en constante actualización. ¡Explora los proyectos y no dudes en contribuir o dejar sugerencias!* 🚀
