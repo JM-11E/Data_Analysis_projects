@@ -15,7 +15,7 @@ Bienvenido a mi repositorio de proyectos en **Power BI** y **SQL Server**, donde
 🔹 **Consultas:** Ventas por cliente y producto, productos más rentables, tendencias de compra y análisis de estacionalidad.  
 
 ### 3️⃣ **Predicción de Precios de Viviendas con Machine Learning**
-🔹 Descripción: Desarrollo de un modelo de Machine Learning para predecir los precios medios de viviendas basado en el dataset bostonvivienda.csv.
+🔹 **Descripción**: Desarrollo de un modelo de Machine Learning para predecir los precios medios de viviendas basado en el dataset bostonvivienda.csv.
 🔹 **Técnicas**:
 
 - Preprocesamiento de datos
